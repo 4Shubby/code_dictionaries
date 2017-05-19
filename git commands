@@ -1,0 +1,81 @@
+*#git commands
+
+mkdir ~/ProjectName   	###creates directory on pc
+
+cd ~/ProjectName	###open directory on pc
+
+git init		###makes it github ready
+
+git version 	  	### to see what version is installed  1.9.3
+
+git config —list  	 ### to see all configurations
+
+git config - - global credential.helper osxkeychain    ### to get helper
+
+###process
+
+create a directory with code in it on pc
+
+1. get into file from command line
+## cd ~/Desktop/directory
+
+2. actualize git for file
+## git init
+
+3. add file
+## git add “name_of_file”
+
+3b.check status
+## git status
+
+4. commit file to repo
+## git commit -m “file_name”  
+
+5. connect to github,com (may not be necessary)
+## git remote add origin https://github.com/4Shubby/Sports_analytics.git
+
+6. push file up
+## git push -u origin master
+
+
+other
+
+git checkout projectname   ### to remove changes
+
+
+### add changes
+git add file.name
+git add *     ###add all changes
+  
+
+### adds a remote rep and gives it a short name
+git remote add ea web name.git  
+git fetch ea
+
+
+git merge - - abort  ### if want to undo merge
+
+
+
+### process to add to another local directory
+1. cd ~ /Desktop/directory to clone into
+2. git clone website_of_repository local_name
+3. cd ~ /Desktop/directory cloned
+4. git init
+5. change file 
+6. git add “filename”
+7. git commit -m “update message”
+8. git push -u origin master
+
+
+### get github updates into local
+git pull origin master
+
+
+###switching to a brach
+git checkout -b name
+
+### lists all names of remotes
+git ls -remote origin/eu_working
+
+
