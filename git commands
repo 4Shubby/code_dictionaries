@@ -1,17 +1,28 @@
-*#git commands
+*#git/github commands
 
-mkdir ~/ProjectName   	###creates directory on pc
 
-cd ~/ProjectName	###open directory on pc
 
-git init		###makes it github ready
+### process to add to another local directory from github
 
-git version 	  	### to see what version is installed  1.9.3
+1. cd ~ /Desktop/directory to clone into
+2. git clone website_of_repository local_name
+3. cd ~ /Desktop/directory cloned
+4. git init
+5. change file 
+6. git add “filename”
+7. git commit -m “update message”
+8. git push -u origin master
 
-git config —list  	 ### to see all configurations
 
-git config - - global credential.helper osxkeychain    ### to get helper
+###process if a local(pc) is updated and want to push to remote(github)
 
+1. get into directory
+## cd ~/Desktop/directory_name
+
+2. check status of updated file to be sure it is being tracked
+
+3. 
+##git status
 ###process
 
 create a directory with code in it on pc
@@ -29,7 +40,10 @@ create a directory with code in it on pc
 ## git status
 
 4. commit file to repo
-## git commit -m “file_name”  
+## git commit -m “file_name”
+
+4b. check status
+##git status  
 
 5. connect to github,com (may not be necessary)
 ## git remote add origin https://github.com/4Shubby/Sports_analytics.git
@@ -38,9 +52,31 @@ create a directory with code in it on pc
 ## git push -u origin master
 
 
-other
+###creates directory on pc
+mkdir ~/ProjectName   	
 
-git checkout projectname   ### to remove changes
+
+###open directory on pc
+cd ~/ProjectName	
+
+
+###makes it github ready
+git init		
+
+
+### to see what version is installed  1.9.3
+git version 	  	
+
+### to see all configurations
+git config —list  
+
+	 
+### to get helper
+git config - - global credential.helper osxkeychain    
+
+
+### to remove changes
+git checkout projectname   
 
 
 ### add changes
@@ -53,19 +89,9 @@ git remote add ea web name.git
 git fetch ea
 
 
-git merge - - abort  ### if want to undo merge
+ ### if want to undo merge
+git merge - - abort 
 
-
-
-### process to add to another local directory
-1. cd ~ /Desktop/directory to clone into
-2. git clone website_of_repository local_name
-3. cd ~ /Desktop/directory cloned
-4. git init
-5. change file 
-6. git add “filename”
-7. git commit -m “update message”
-8. git push -u origin master
 
 
 ### get github updates into local
