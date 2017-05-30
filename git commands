@@ -20,9 +20,19 @@
 ## cd ~/Desktop/directory_name
 
 2. check status of updated file to be sure it is being tracked
-
-3. 
 ##git status
+
+3. add file
+## git add “filename”
+
+4. commit file to push
+## git commit -m “message”
+
+5. push file to remote
+##git push -u origin master
+
+
+
 ###process
 
 create a directory with code in it on pc
