@@ -62,6 +62,19 @@ create a directory with code in it on pc
 ## git push -u origin master
 
 
+
+### to remove a file from git
+
+git rm ‘file_name’
+git status
+
+##to remove a file from github
+get into github
+click on file
+select trashcan
+then commit changes
+
+
 ###creates directory on pc
 mkdir ~/ProjectName   	
 

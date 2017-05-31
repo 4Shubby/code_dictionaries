@@ -1,17 +1,18 @@
 
 Libraries
 	Numpy: for mathemtatical operations
-o	import numpy as np
+		o	import numpy as np
 	Pandas: for data frames
-o	import pandas as pd
+		o	import pandas as pd
 	Seaborn: unique set of graphing params built on top of matplotlib
-o	import Seaborn as sns
+		o	import Seaborn as sns
 	Matplotlib: for graphing
-o	import matplotlib
-o	import matplotlib.pyplot as plt : specific plots
-o	import matplotlib.animation as animation
+		o	import matplotlib
+		o	import matplotlib.pyplot as plt : specific plots
+		o	import matplotlib.animation as animation
+	scipy
 
-import scipy.stats as stats: for statistical analysis of kurtosis
+		o	import scipy.stats as stats: for statistical analysis of kurtosis
 
 
 
@@ -23,14 +24,14 @@ Functions
 •	Concatenate lists: +  [1,2] + [3,4]
 
 •	Dates: epoch time: January 1, 1970
-o	dtnow = dt.datetime.fromtimestamp(tm.time()
-dtnow
-< datetime.datetime(2016,10,17,10,28,40,500572)
-dtnow.year, dtnow.month, dtnow.day, dtnow.hour
+		o	dtnow = dt.datetime.fromtimestamp(tm.time()
+			dtnow
+			< datetime.datetime(2016,10,17,10,28,40,500572)
+		o	dtnow.year, dtnow.month, dtnow.day, dtnow.hour
 
-o	delta = dt.timedelta(days = 100)
-today = dt.date.today()
-today - delta
+		o	delta = dt.timedelta(days = 100)
+			today = dt.date.today()
+t			oday - delta
 
 
 •	Def: define - used to define a function
