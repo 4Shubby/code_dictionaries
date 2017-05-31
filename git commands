@@ -50,7 +50,8 @@ create a directory with code in it on pc
 ## git status
 
 4. commit file to repo
-## git commit -m “file_name”
+## git commit -m “message”
+
 
 4b. check status
 ##git status  
@@ -63,10 +64,11 @@ create a directory with code in it on pc
 
 
 
-### to remove a file from git
-
+## to remove a file from git
 git rm ‘file_name’
 git status
+
+
 
 ##to remove a file from github
 get into github
@@ -118,7 +120,7 @@ git merge - - abort
 
 
 ### get github updates into local
-git pull origin master
+git pull origin master  ###may need to add message for it to run
 
 
 ###switching to a brach
@@ -126,5 +128,11 @@ git checkout -b name
 
 ### lists all names of remotes
 git ls -remote origin/eu_working
+
+## to prevent getting vim messages
+git config - - global core.editor=“nano” 
+
+##vim
+:wq   ###write and quit
 
 
